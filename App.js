@@ -61,7 +61,7 @@ export default function App() {
   // JSX que describe la interfaz de la aplicación
   return (
     // SafeAreaView respeta las zonas seguras de la pantalla (notch, barras, etc.)
-    <SafeAreaView style={styles.safe}>
+    <View style={styles.safe}>
       {/* Configuramos el estilo de la barra de estado (iconos oscuros) */}
       <StatusBar barStyle="dark-content" />
 
@@ -116,7 +116,7 @@ export default function App() {
           }
         />
       </View>
-    </SafeAreaView>
+    </View>
   );
 }
 
