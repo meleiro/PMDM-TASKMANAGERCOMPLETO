@@ -11,7 +11,6 @@ import {
   TextInput,
   Button,
   FlatList,
-  SafeAreaView,
   StatusBar,
 } from 'react-native';
 
